@@ -133,6 +133,7 @@
     <ClCompile Include="..\..\0.Common_Classes\Room.cpp" />
     <ClCompile Include="..\..\0.Common_Classes\Wall.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MazeGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\0.Common_Classes\Direction.h" />
@@ -142,6 +143,7 @@
     <ClInclude Include="..\..\0.Common_Classes\Room.h" />
     <ClInclude Include="..\..\0.Common_Classes\Wall.h" />
     <ClInclude Include="IMazeBuilder.h" />
+    <ClInclude Include="MazeGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
