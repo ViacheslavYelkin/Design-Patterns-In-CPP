@@ -13,5 +13,5 @@ public:
 	virtual Maze* GetMaze() { return nullptr; };
 
 protected:
-	IMazeBuilder();
+	IMazeBuilder() {};
 };
