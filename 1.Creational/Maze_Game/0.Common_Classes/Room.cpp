@@ -8,7 +8,7 @@ Room::Room()
 
 Room::Room(int n)
 {
-	std::cout << "Creating simple room\n";
+	std::cout << "----------------------\nCreating simple room\n";
 }
 
 void Room::SetSide(EDirection direction, IMapSite* side)

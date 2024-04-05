@@ -8,7 +8,7 @@ Door::Door()
 
 Door::Door(Room*, Room*)
 {
-	std::cout << "Creating simple door\n";
+	std::cout << "----------------------\nCreating simple door\n";
 }
 
 void Door::Enter()

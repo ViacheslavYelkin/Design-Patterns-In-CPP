@@ -10,7 +10,7 @@ Maze::Maze() :
 
 void Maze::AddRoom(Room* room)
 {
-	std::cout << "Adding room...\n";
+	std::cout << "----------------------\nAdding room...\n";
 
 	rooms_.push_back(room);
 }

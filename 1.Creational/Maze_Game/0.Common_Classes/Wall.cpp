@@ -4,7 +4,7 @@
 
 Wall::Wall()
 {
-	std::cout << "Creating simple wall\n";
+	std::cout << "----------------------\nCreating simple wall\n";
 }
 
 void Wall::Enter()
