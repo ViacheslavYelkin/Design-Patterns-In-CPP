@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "StandardMazeBuilder.h"
 #include "Maze.h";
 #include "Room.h"
