@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\srcC++\1.Design_Patterns\1.Creational\Maze_Game\0.Common_Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\0.Common_Classes\Door.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Maze.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Room.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Wall.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\0.Common_Classes\Direction.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Door.h" />
+    <ClInclude Include="..\..\0.Common_Classes\MapSite.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Maze.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Room.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Wall.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
