@@ -50,5 +50,8 @@
     <ClInclude Include="..\..\0.Common_Classes\Wall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IMazeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
