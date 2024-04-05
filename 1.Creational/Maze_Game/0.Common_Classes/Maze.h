@@ -8,5 +8,6 @@ public:
 	Maze();
 
 	void AddRoom(Room*);
+	Room* GetRoomByNumber(int no);
 
 };
