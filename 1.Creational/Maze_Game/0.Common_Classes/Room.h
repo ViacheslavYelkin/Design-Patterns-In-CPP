@@ -11,6 +11,7 @@ public:
 
 	void SetSide(EDirection, IMapSite*);
 	void GetSide() const;
+	int GetRoomNumber();
 	virtual void Enter() override;
 
 

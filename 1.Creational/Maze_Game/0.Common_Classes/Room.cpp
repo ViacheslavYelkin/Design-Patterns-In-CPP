@@ -19,6 +19,11 @@ void Room::GetSide() const
 {
 }
 
+int Room::GetRoomNumber()
+{
+	return room_no_;
+}
+
 void Room::Enter()
 {
 }
