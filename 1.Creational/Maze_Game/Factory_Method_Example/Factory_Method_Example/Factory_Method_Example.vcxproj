@@ -24,6 +24,7 @@
     <ProjectGuid>{26605d5a-7100-48b0-ae38-1c361131ff24}</ProjectGuid>
     <RootNamespace>FactoryMethodExample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>3.Factory_Method_Example</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\0.Common_Classes\Door.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Maze.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Room.cpp" />
+    <ClCompile Include="..\..\0.Common_Classes\Wall.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\0.Common_Classes\Direction.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Door.h" />
+    <ClInclude Include="..\..\0.Common_Classes\MapSite.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Maze.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Room.h" />
+    <ClInclude Include="..\..\0.Common_Classes\Wall.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
