@@ -3,16 +3,26 @@
 #include "Maze.h"
 #include "Room.h"
 
-Maze::Maze()
+Maze::Maze() :
+	rooms_{}
 {
 }
 
 void Maze::AddRoom(Room* room)
 {
-	std::cout << "Creating room...\n";
+	std::cout << "Adding room...\n";
+
+	rooms_.push_back(room);
 }
 
 Room* Maze::GetRoomByNumber(int no)
 {
-	return new Room(no);
+	std::vector<Room*>::iterator it = rooms_.begin();
+
+	for (; it != rooms_.end(); it++) {
+		if ((*it)->GetRoomNumber() == no) {
+			return (*it);
+		}
+	}
+	return nullptr;
 }
