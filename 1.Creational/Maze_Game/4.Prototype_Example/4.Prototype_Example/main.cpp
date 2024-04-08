@@ -6,12 +6,14 @@
 #include "Room.h"
 #include "Wall.h"
 #include "Door.h"
+#include "DoorNeedingSpell.h"
+#include "EnchantedRoom.h"
 
 int main(int argc, char** argv) {
 
 	MazeGame game;
 	MazePrototypeFactory prototype{
-		new Maze, new Wall, new Room, new Door
+		new Maze, new Wall, new EnchantedRoom, new DoorNeedingSpell
 	};
 
 	Maze* maze = game.CreateMaze(prototype);
