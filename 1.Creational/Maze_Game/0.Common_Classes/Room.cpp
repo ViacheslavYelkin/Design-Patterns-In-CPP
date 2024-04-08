@@ -27,3 +27,13 @@ int Room::GetRoomNumber()
 void Room::Enter()
 {
 }
+
+Room* Room::Clone() const
+{
+	return new Room(*this);
+}
+
+void Room::Initialize(int no)
+{
+	room_no_ = no;
+}

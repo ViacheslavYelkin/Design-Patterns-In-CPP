@@ -26,3 +26,9 @@ Room* Maze::GetRoomByNumber(int no)
 	}
 	return nullptr;
 }
+
+Maze* Maze::Clone() const
+{
+	return new Maze(*this);
+}
+

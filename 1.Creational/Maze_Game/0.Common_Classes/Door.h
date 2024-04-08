@@ -11,8 +11,10 @@ public:
 	Door(Room*, Room*);
 
 	virtual void Enter() override;
+	virtual Door* Clone() const;
+	virtual void Initialize(Room*, Room*);
 
 private:
-	Room* r1{};
-	Room* r2{};
+	Room* r1_{};
+	Room* r2_{};
 };

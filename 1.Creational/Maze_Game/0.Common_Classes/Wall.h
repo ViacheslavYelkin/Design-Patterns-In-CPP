@@ -8,6 +8,7 @@ public:
 	Wall();
 
 	virtual void Enter() override;
+	virtual Wall* Clone() const;
 
 
 };
