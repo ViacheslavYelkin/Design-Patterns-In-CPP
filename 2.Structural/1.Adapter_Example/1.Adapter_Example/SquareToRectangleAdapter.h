@@ -4,8 +4,9 @@
 
 class Square;
 
-struct SquareToRectangleAdapter : Rectangle
+class SquareToRectangleAdapter : public Rectangle
 {
+public:
     SquareToRectangleAdapter(Square& square);
 
     virtual int width() const override;
