@@ -24,6 +24,7 @@
     <ProjectGuid>{22f574bb-ec27-4698-941e-c4ac686c6642}</ProjectGuid>
     <RootNamespace>My2BuilderExample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2.Bridge_Example</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
