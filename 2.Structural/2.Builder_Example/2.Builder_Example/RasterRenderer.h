@@ -2,6 +2,6 @@
 
 #include "Renderer.h"
 
-class RasterRenderer : IRenderer {
+class RasterRenderer : public IRenderer {
 	virtual void drawObject(const std::string& name) const override;
 };
