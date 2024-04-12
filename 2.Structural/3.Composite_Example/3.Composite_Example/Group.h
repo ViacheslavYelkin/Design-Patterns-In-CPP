@@ -13,7 +13,7 @@ public:
 	virtual void draw() override;
 	virtual void move() override;
 
-	void add(IGraphicObject& obj);
+	void add(IGraphicObject* obj);
 
 private: 
 	std::string name_{};

@@ -2,7 +2,7 @@
 
 #include "Group.h"
 
-Group::Group(std::string& name) :
+Group::Group(const std::string& name) :
 	name_{name}
 {
 }
@@ -25,7 +25,7 @@ void Group::move()
 	std::cout << "\n]" << std::endl;
 }
 
-void Group::add(IGraphicObject& obj)
+void Group::add(IGraphicObject* obj)
 {
-	objects_.push_back(&obj);
+	objects_.push_back(obj);
 }
