@@ -8,7 +8,7 @@
 class Group : public IGraphicObject {
 public:
 
-	Group(std::string& name);
+	Group(const std::string& name);
 
 	virtual void draw() override;
 	virtual void move() override;
