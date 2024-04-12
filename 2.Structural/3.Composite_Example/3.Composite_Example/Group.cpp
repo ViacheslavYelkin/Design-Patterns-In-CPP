@@ -20,7 +20,7 @@ void Group::move()
 {
 	std::cout << "Moving group named: " << name_ << "[\n";
 	for (auto& obj : objects_) {
-		obj->draw();
+		obj->move();
 	}
 	std::cout << "\n]" << std::endl;
 }
