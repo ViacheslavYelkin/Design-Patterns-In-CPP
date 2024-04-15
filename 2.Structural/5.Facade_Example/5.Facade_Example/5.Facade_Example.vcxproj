@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeGenerator.cpp" />
+    <ClCompile Include="Compiler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="Scanner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodeGenerator.h" />
+    <ClInclude Include="Compiler.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Scanner.h" />
   </ItemGroup>
