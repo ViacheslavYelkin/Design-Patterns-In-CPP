@@ -8,7 +8,7 @@
 class ColoredShape : public IShape {
 public:
 
-	ColoredShape(IShape& shape, std::string& color);
+	ColoredShape(IShape& shape, const std::string& color);
 
 	virtual void draw() override;
 

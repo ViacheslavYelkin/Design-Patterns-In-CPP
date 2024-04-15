@@ -2,7 +2,7 @@
 
 #include "ColoredShape.h"
 
-ColoredShape::ColoredShape(IShape& shape, std::string& color) 
+ColoredShape::ColoredShape(IShape& shape, const std::string& color) 
 	: shape_{ shape }, color_{color}
 {
 }
