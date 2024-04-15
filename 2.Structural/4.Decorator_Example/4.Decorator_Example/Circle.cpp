@@ -2,8 +2,8 @@
 
 #include "Circle.h"
 
-Circle::Circle(IShape& shape, float radius)
-	:shape_{ shape }, radius_{radius}
+Circle::Circle(float radius)
+	:radius_{radius}
 {
 }
 
