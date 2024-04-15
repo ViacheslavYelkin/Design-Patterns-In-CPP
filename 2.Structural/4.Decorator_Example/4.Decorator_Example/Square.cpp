@@ -4,5 +4,5 @@
 
 void Square::draw()
 {
-	std::cout << "Drawning square";
+	std::cout << "Drawing square";
 }

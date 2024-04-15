@@ -9,7 +9,7 @@ Circle::Circle(float radius)
 
 void Circle::draw()
 {
-	std::cout << "Drawning circle";
+	std::cout << "Drawing circle";
 }
 
 void Circle::resize(float factor)
