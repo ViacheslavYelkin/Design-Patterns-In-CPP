@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BorderedShape.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="ColoredShape.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BorderedShape.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="ColoredShape.h" />
     <ClInclude Include="Shape.h" />
