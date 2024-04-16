@@ -4,6 +4,7 @@
 
 class Person
 {
+	friend class ResponsiblePerson;
 	int age_;
 public:
 	Person(int age);
