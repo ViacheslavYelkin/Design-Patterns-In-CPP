@@ -8,10 +8,10 @@ class Person
 public:
 	Person(int age);
 
-	int get_age() const;
-	void set_age(int age);
+	int getAge() const;
+	void setAge(int age);
 
 	std::string drink() const;
 	std::string drive() const;
-	std::string drink_and_drive() const;
+	std::string drinkAndDrive() const;
 };

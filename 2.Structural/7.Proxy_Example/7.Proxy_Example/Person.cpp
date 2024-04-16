@@ -2,11 +2,11 @@
 
 Person::Person(int age) : age_{age} {}
 
-int Person::get_age() const {
+int Person::getAge() const {
 	return age_; 
 }
 
-void Person::set_age(int age) { 
+void Person::setAge(int age) { 
 	age_ = age; 
 }
 
@@ -18,6 +18,6 @@ std::string Person::drive() const {
 	return "driving"; 
 }
 
-std::string Person::drink_and_drive() const { 
+std::string Person::drinkAndDrive() const { 
 	return "driving while drunk"; 
 }
