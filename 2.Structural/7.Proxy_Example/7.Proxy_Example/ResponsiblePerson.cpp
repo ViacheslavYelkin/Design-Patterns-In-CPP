@@ -19,7 +19,7 @@ std::string ResponsiblePerson::drink() const {
         return "too young";
     }
 
-    return "drinking";
+    return person_.drink();
 }
 
 std::string ResponsiblePerson::drive() const {
@@ -27,9 +27,9 @@ std::string ResponsiblePerson::drive() const {
         return "too young";
     }
 
-    return "driving";
+    return person_.drive();
 }
 
 std::string ResponsiblePerson::drinkAndDrive() const { 
-    return "dead"; 
+    return person_.drinkAndDrive() + " then dead"; 
 }
