@@ -2,7 +2,7 @@
 #include "Person.h"
 
 
-ResponsiblePerson::ResponsiblePerson(Person& person)
+ResponsiblePerson::ResponsiblePerson(const Person& person)
 	: person_{person}
 {
 }

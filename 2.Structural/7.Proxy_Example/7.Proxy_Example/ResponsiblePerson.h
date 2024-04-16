@@ -7,7 +7,7 @@ class Person;
 class ResponsiblePerson
 {
 public:
-    ResponsiblePerson(Person& person);
+    ResponsiblePerson(const Person& person);
 
     int getAge() const;
     void setAge(int age);
@@ -17,5 +17,5 @@ public:
     std::string drinkAndDrive() const;
 
 private:
-    Person& person_;
+    Person person_;
 };
