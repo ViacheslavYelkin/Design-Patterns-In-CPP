@@ -2,7 +2,7 @@
 
 #include <string>
 
-class Person;
+#include "Person.h"
 
 class ResponsiblePerson
 {

@@ -1,5 +1,4 @@
 #include "ResponsiblePerson.h"
-#include "Person.h"
 
 
 ResponsiblePerson::ResponsiblePerson(const Person& person)
