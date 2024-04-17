@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="CreatureModifier.cpp" />
+    <ClCompile Include="DoubleAttackModifier.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Creature.h" />
     <ClInclude Include="CreatureModifier.h" />
+    <ClInclude Include="DoubleAttackModifier.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

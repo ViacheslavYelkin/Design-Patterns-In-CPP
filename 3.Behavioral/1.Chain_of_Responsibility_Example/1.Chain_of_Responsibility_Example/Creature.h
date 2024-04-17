@@ -11,7 +11,6 @@ class Creature {
 public:
 	Creature(const std::string& name, int attack, int defense);
 
-private:
 	std::string name_{};
 	int attack_;
 	int defense_{};

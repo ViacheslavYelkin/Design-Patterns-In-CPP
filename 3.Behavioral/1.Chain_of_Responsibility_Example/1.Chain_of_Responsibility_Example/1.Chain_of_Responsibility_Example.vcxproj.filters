@@ -24,12 +24,18 @@
     <ClCompile Include="CreatureModifier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DoubleAttackModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Creature.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CreatureModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleAttackModifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
