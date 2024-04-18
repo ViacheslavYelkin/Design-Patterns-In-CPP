@@ -1,15 +1,10 @@
 #include "BankAccount.h"
 
-BankAccount::BankAccount() :
-	success_{false}
-{
-}
-
 bool BankAccount::deposite(int amount)
 {
 	balance_ += amount;
 	std::cout << *this << '\n';
-	return success_ = true;
+	return true;
 }
 
 bool BankAccount::withdraw(int amount)
@@ -17,11 +12,12 @@ bool BankAccount::withdraw(int amount)
 	if ((balance_ - amount) >= 0) {
 		balance_ -= amount;
 		std::cout << *this << '\n';
-		return success_ = true;
+		return true;
 	}
 
 	std::cout << "Operation failed\n";
-	return success_ = false;
+	return false;
+	return false;
 }
 
 std::ostream& operator<<(std::ostream& os, const BankAccount& obj)

@@ -7,12 +7,11 @@ class BankAccount {
 
 public:
 
-	BankAccount();
+	BankAccount() = default;
 
 	bool deposite(int amount);
 	bool withdraw(int amount);
 
 private:
 	int balance_{};
-	bool success_{};
 };
