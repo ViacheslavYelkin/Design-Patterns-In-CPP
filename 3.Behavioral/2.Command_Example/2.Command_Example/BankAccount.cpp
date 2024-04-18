@@ -8,7 +8,7 @@ BankAccount::BankAccount() :
 bool BankAccount::deposite(int amount)
 {
 	balance_ += amount;
-	std::cout << *this;
+	std::cout << *this << '\n';
 	return success_ = true;
 }
 
@@ -16,11 +16,11 @@ bool BankAccount::withdraw(int amount)
 {
 	if ((balance_ - amount) >= 0) {
 		balance_ -= amount;
-		std::cout << *this;
+		std::cout << *this << '\n';
 		return success_ = true;
 	}
 
-	std::cout << "Operation failed";
+	std::cout << "Operation failed\n";
 	return success_ = false;
 }
 
