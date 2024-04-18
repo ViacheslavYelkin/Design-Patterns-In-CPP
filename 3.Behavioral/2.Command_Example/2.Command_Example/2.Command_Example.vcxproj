@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="BankAccountCommand.cpp" />
+    <ClCompile Include="CompositeBankAccountCommand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +138,7 @@
     <ClInclude Include="BankAccountAction.h" />
     <ClInclude Include="BankAccountCommand.h" />
     <ClInclude Include="Command.h" />
+    <ClInclude Include="CompositeBankAccountCommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

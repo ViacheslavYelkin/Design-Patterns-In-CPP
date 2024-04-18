@@ -24,6 +24,9 @@
     <ClCompile Include="BankAccountCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CompositeBankAccountCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BankAccount.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BankAccountAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeBankAccountCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
