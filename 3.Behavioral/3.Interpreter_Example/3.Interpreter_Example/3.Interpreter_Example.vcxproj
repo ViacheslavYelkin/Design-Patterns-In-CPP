@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryOperation.cpp" />
     <ClCompile Include="Integer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Token.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryOperation.h" />
     <ClInclude Include="Element.h" />
+    <ClInclude Include="EOperationType.h" />
     <ClInclude Include="ETokenType.h" />
     <ClInclude Include="Integer.h" />
     <ClInclude Include="Token.h" />
