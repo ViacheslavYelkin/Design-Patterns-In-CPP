@@ -5,6 +5,11 @@ Token::Token(ETokenType type, const std::string& expression)
 {
 }
 
+ETokenType Token::getTokenType() const
+{
+	return type_;
+}
+
 std::ostream& operator<<(std::ostream& os, const Token& obj)
 {
 	os << "`" << obj.expression_ << "`";

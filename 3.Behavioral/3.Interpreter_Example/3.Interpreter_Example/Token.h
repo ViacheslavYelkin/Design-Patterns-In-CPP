@@ -46,6 +46,8 @@ public:
 		return result;
 	}
 
+	ETokenType getTokenType() const;
+
 private:
 	ETokenType type_{};
 	std::string expression_{};
