@@ -131,6 +131,7 @@
     <ClCompile Include="Token.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Element.h" />
     <ClInclude Include="ETokenType.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>
