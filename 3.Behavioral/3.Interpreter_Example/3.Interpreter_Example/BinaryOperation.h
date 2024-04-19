@@ -10,7 +10,6 @@ public:
 
 	virtual int eval() const override;
 
-private:
 	EOperationType operation_type_;
 	std::shared_ptr<Element> lhs_, rhs_;
 };
