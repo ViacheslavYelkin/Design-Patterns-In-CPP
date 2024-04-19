@@ -47,6 +47,7 @@ public:
 	}
 
 	ETokenType getTokenType() const;
+	std::string getExpression() const;
 
 private:
 	ETokenType type_{};
