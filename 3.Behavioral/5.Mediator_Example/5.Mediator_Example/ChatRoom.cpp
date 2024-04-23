@@ -13,7 +13,7 @@ void ChatRoom::broadcast(const std::string& origin, const std::string& message)
 
 void ChatRoom::join(Person* p)
 {
-	std::string join_message{p->name_ + " joined the room\n"};
+	std::string join_message{p->name_ + " joined the room"};
 	broadcast("room", join_message);
 	p->room_ = this;
 	people_.push_back(p);
