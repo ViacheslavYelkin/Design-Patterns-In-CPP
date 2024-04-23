@@ -1,6 +1,6 @@
 #pragma once
 
-struct Memento;
+class Memento;
 
 struct BankAccount {
 	int balance_{};
