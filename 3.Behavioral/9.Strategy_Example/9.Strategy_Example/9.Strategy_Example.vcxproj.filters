@@ -23,5 +23,8 @@
     <ClInclude Include="OutputFormat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ListStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
