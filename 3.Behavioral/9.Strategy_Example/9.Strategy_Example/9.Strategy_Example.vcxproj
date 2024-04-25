@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HtmlStrategy.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MarkdownStrategy.cpp" />
+    <ClCompile Include="TextProcessor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HtmlStrategy.h" />
     <ClInclude Include="ListStrategy.h" />
+    <ClInclude Include="MarkdownStrategy.h" />
     <ClInclude Include="OutputFormat.h" />
+    <ClInclude Include="TextProcessor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
